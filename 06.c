@@ -25,7 +25,7 @@ void num_combinations(){
         a++;
     }
 }
-int main(void){
+int main(){
     num_combinations();
     return (0);
 }
