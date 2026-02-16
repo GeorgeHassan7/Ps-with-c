@@ -7,7 +7,6 @@ void num_combinations(){
     char d ;
 
 
-    while (a <=9 , b <=9){
         while (a <= '9'){
         b = '1';
         d = '0';
@@ -25,7 +24,7 @@ void num_combinations(){
         }
         c++;
         d++;
-    }
+    
     c ='0';
     while (c <= '9'){
         d = '0';
@@ -45,4 +44,3 @@ int main() {
 
     return 0;
 }
-
